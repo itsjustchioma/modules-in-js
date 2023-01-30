@@ -8,9 +8,25 @@
   </head>
   <body>
     <h1>Example 2 of Modules: Banking</h1>
-    <p id="depMon"></p>
-    <p id="witMon"></p>
-    <p id="cheBal"></p>
+
+    <h5>Deposit</h5>
+    <h2>$ <span id="current-deposit">00</span></h2>
+
+    <h5>Withdraw</h5>
+    <h2>$ <span id="current-withdraw">00</span></h2>
+
+    <h5>Balance</h5>
+    <h2>$ <span id="current-balance">1240</span></h2>
+
+    <h4>Deposit Amount</h4>
+    <input id="deposit-amount" type="text" class="form-control" placeholder="Enter deposit amount"><br>
+    <button id="deposit-btn" class="btn btn-success">Deposit</button>
+
+    <h4>Withdraw Amount</h4>
+    
+    <input id="withdraw-amount" type="text" class="form-control" placeholder="Enter withdraw amount"><br>
+    <button id="withdraw-btn" class="btn btn-success">Withdraw</button>
+      
     <script type="module" src="./script.js"></script>
   </body>
 </html>
