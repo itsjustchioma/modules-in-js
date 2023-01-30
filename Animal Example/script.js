@@ -1,4 +1,5 @@
-import './modules/animalInfo.js'
-import './modules/animal.js'
+import animalInfo from "./modules/animalInfo.js";
 
-console.log("Importing module");
+// console.log("Importing module");
+
+ animalInfo();
